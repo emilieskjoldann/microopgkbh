@@ -3,7 +3,34 @@ import MainLayout from "../layouts/MainLayout.astro";
 import Button from '../components/Button.astro';
 ---
 <MainLayout title="Titel">
-	<article>
-		<p>Index indhold</p>
-	</article>
+	<section class="">
+		<div class="h-screen">
+			<img class="object-scale-down max-h-full m-auto mr-0" src="/baggrund.png" alt="">
+		</div>
+		<div class="text-[#1A3660] text-xl ml-36 absolute top-5 left-5">
+			<p>emilie_skjoldann@outlook.dk</p>
+		<p class="pt-3 pb-3">+45 3062 4755</p>
+		<p class="underline">LinkedIn</p>
+		</div>
+		<h1  class="text-[#1A3660] text-9xl ml-36 absolute bottom-0 left-0 right-0">Emilie <br /> Skjoldann</h1>
+	</section>
+
+	<section class="mt-20 ml-36 grid grid-cols-2 gap-20">
+		<div class="">
+		<h2 class="text-[#E20C1C] text-2xl">Min praktikplads</h2>
+<p class="text-[#1A3660]">I løbet af min uddannelse har jeg udviklet en stærk interesse for både det æstetiske og funktionelle aspekt af webdesign, især inden for UI/UX-design. Jeg tror på vigtigheden af at skabe brugercentrerede digitale oplevelser, der ikke kun er visuelt tiltalende, men også intuitive og effektive.</p>
+<p class="text-[#1A3660] mt-3">Jeg er særligt interesseret i at bruge min praktiktid hos jer til at fordybe mig i arbejdet med at skabe brugervenlige og visuelt imponerende weboplevelser. Jeg ønsker at lære mere om best practices inden for UI/UX-design og deltage aktivt i projekter, hvor jeg kan anvende mine færdigheder til at forbedre brugeroplevelsen og opnå målene for virksomheden.</p>		
+</div>
+<h2 class="text-[#E20C1C] text-2xl">Skills</h2>
+	</section>
+
+	<section class="m-20 mr-36 ml-36">
+		<h2 class="text-[#E20C1C] text-2xl">Portfolio</h2>
+		<div class="grid grid-cols-2 gap-10">
+		<img src="/digitalcleanup.png" alt="">
+		<img src="/barkingdog.png" alt="">
+		<img src="uxcph.png" alt="">
+		<img src="ca.png" alt="">
+	</div>
+	</section>
 </MainLayout>
