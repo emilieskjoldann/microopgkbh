@@ -8,7 +8,12 @@ module.exports = {
         require('@tailwindcss/container-queries'),
     ],
     theme: {
-      
+      fontFamily: {
+
+        'futura-pt': ['"futura-pt"', 'sans-serif'],
+        'roboto': ['"Roboto"', 'monospace'],
+        
+        },
         screens: {
           'tablet': '640px',
           // => @media (min-width: 640px) { ... }
