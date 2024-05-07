@@ -3,51 +3,118 @@ import MainLayout from "../layouts/MainLayout.astro";
 import Button from '../components/Button.astro';
 ---
 <MainLayout title="Titel">
-	<section class="">
+	<section class="relative @container">
 		<div class="desktop:h-screen">
 			<img class="object-scale-down max-h-full m-auto mr-0" src="/baggrund.png" alt="">
 		</div>
-		<div class="text-[#1A3660] font-roboto text-xs laptop:text-base desktop:text-2xl tablet:ml-10 desktop:ml-36 absolute top-2 left-2 desktop:top-10 desktop:left-5">
+		<div class="text-[#1A3660] font-roboto text-xs laptop:text-base desktop:text-2xl ml-10 desktop:ml-36 absolute top-2 left-2 desktop:top-10 desktop:left-5">
 			<p>emilie_skjoldann@outlook.dk</p>
 		<p class="tablet:mt-2 tablet:mb-2">+45 3062 4755</p>
-		<a href="https://www.linkedin.com/in/emilie-skjoldann-jørgensen/">
+		<a href="https://www.linkedin.com/in/emilie-skjoldann-jørgensen/" target="_blank">
 		<p class="underline">LinkedIn</p>
 		</a>
 		</div>
-		<h1  class="text-[#1A3660] font-futura-pt text-3xl tablet:text-5xl laptop:text-7xl desktop:text-9xl tablet:ml-10 desktop:ml-36 absolute top-44 desktop:top-auto tablet:top-80 laptop:top-auto laptop:bottom-36 desktop:bottom-8 left-2 tablet:left-0 tablet:right-0">Emilie <br /> Skjoldann</h1>
+		<h1  class=" text-[#1A3660] mb-2 ml-10 desktop:ml-36 font-futura-pt text-5xl tablet:text-5xl laptop:text-8xl desktop:text-9xl absolute bottom-0 left-0">Emilie <br /> Skjoldann</h1>
 	</section>
 
 <!-- sektion 2 -->
-	<section class="bg-[#BFB5AA] p-10 laptop:pt-28 laptop:pb-28">
+	<section class="bg-[#BFB5AA] p-10 laptop:pt-36 laptop:pb-36">
 		<div class="desktop:ml-36 tablet:grid grid-cols-2 tablet:gap-8 desktop:gap-20">
 			<div class=" pr-20 desktop:pr-24">
-		<h2 class="text-[#E20C1C] font-futura-pt text-lg desktop:text-3xl mb-2 desktop:mb-5">Min praktikplads</h2>
-<p class="text-[#2D251D] font-roboto text-sm">I løbet af min uddannelse har jeg udviklet en stærk interesse for både det æstetiske og funktionelle aspekt af webdesign, især inden for UI/UX-design. Jeg tror på vigtigheden af at skabe brugercentrerede digitale oplevelser, der ikke kun er visuelt tiltalende, men også intuitive og effektive.</p>
-<p class="text-[#2D251D] font-roboto text-sm mt-2 desktop:mt-3">Jeg er særligt interesseret i at bruge min praktiktid hos jer til at fordybe mig i arbejdet med at skabe brugervenlige og visuelt imponerende weboplevelser. Jeg ønsker at lære mere om best practices inden for UI/UX-design og deltage aktivt i projekter, hvor jeg kan anvende mine færdigheder til at forbedre brugeroplevelsen og opnå målene for virksomheden.</p>		
+		<h2 class="text-[#E20C1C] font-futura-pt text-2xl laptop:text-3xl desktop:text-5xl mb-2 desktop:mb-5">Min praktikplads</h2>
+<p class="text-[#2D251D] font-roboto text-sm desktop:text-lg">I løbet af min uddannelse har jeg udviklet en stærk interesse for både det æstetiske og funktionelle aspekt af webdesign, især inden for UI/UX-design. Jeg tror på vigtigheden af at skabe brugercentrerede digitale oplevelser, der ikke kun er visuelt tiltalende, men også intuitive og effektive.</p>
+<p class="text-[#2D251D] font-roboto text-sm mt-2 desktop:mt-3 desktop:text-lg">Jeg er særligt interesseret i at bruge min praktiktid hos jer til at fordybe mig i arbejdet med at skabe brugervenlige og visuelt imponerende weboplevelser. Jeg ønsker at lære mere om best practices inden for UI/UX-design og deltage aktivt i projekter, hvor jeg kan anvende mine færdigheder til at forbedre brugeroplevelsen og opnå målene for virksomheden.</p>		
 </div>
 <div>
-<h2 class="text-[#E20C1C] font-futura-pt text-lg desktop:text-3xl mt-3 tablet:mt-0 desktop:mb-5">Skills</h2>
+<h2 class="text-[#E20C1C] font-futura-pt text-2xl laptop:text-3xl desktop:text-5xl mt-8 mb-2 tablet:mt-0 desktop:mb-5">Skills</h2>
+<div class="grid grid-cols-2 gap-4 font-futura-pt text-[#2D251D] text-sm desktop:text-lg">
+<div class="font-futura-pt text-[#2D251D] text-sm desktop:text-lg">
+<ul class="font-semibold">Værktøjer/ programmer:</ul>
+<li>Figma</li>
+<li>XD</li>
+<li>Illustrator</li>
+</div>
+<div>
+	<ul class="font-semibold">“Sprog” & kodebibliotek:</ul>
+	<li>HTML</li>
+	<li>CSS</li>
+	<li>Tailwind</li>
+	</div>
+	<div>
+		<ul class="font-semibold">Emner:</ul>
+		<li>Content Creation</li>
+		<li>Projektstyring</li>
+		<li>UX/ UI</li>
+		</div>
+		<div>
+			<ul class="font-semibold">Tekniske færdigheder:</ul>
+			<li>Prototyping</li>
+			<li>User testing</li>
+			</div>
+</div>
 </div>
 		</div>
 </section>
 	</section>
 
 <!-- sektion 3 -->
-	<section class="p-10 laptop:pt-28 laptop:pb-28 desktop:mr-36 desktop:ml-36">
-		<h2 class="text-[#E20C1C] font-futura-pt text-lg mb-2 desktop:text-3xl desktop:mb-5">Portfolio</h2>
-		<div class="desktop:grid grid-cols-2 desktop:gap-10">
-		<a href="https://digital-cleanup-day.netlify.app">
+	<section class="p-10 laptop:pt-36 laptop:pb-36 desktop:mr-36 desktop:ml-36">
+		<h2 class="text-[#E20C1C] font-futura-pt text-2xl laptop:text-3xl mb-4 desktop:text-5xl desktop:mb-5">Portfolio</h2>
+		<div class="laptop:grid grid-cols-2 laptop:gap-10 laptop:gap-y-16">
+			<div>
+		<a href="https://digital-cleanup-day.netlify.app" target="_blank">
 			<img src="/digitalcleanup.png" alt="screen shot af digital clean up site">
+			<p class="text-[#2D251D] font-roboto text-xl mt-2 desktop:mt-3 desktop:text-2xl grid place-content-center underline">Digital Clean Up</p>
 		</a>
-		<a href="https://tbdteam8.netlify.app">
+	</div>
+	<div class="mt-8 mb-8 laptop:mt-0 laptop:mb-0">
+		<a href="https://tbdteam8.netlify.app" target="_blank">
 		<img src="/barkingdog.png" alt="screen shot af the barking dog site">
+		<p class="text-[#2D251D] font-roboto text-xl mt-2 desktop:mt-3 desktop:text-2xl grid place-content-center underline">The Barking Dog</p>
 	</a>
-	<a href="https://uxcph.netlify.app">
+</div>
+<div>
+	<a href="https://uxcph.netlify.app" target="_blank">
 		<img src="uxcph.png" alt="screen shot af ux cph site">
+		<p class="text-[#2D251D] font-roboto text-xl mt-2 desktop:mt-3 desktop:text-2xl grid place-content-center underline">UX Copenhagen</p>
 	</a>
-	<a href="https://cateam8.netlify.app">
+</div>
+<div class="mt-8 mb-8 laptop:mt-0 laptop:mb-0">
+	<a href="https://cateam8.netlify.app" target="_blank">
 		<img src="ca.png" alt="screen shot af CA site">
+		<p class="text-[#2D251D] font-roboto text-xl mt-2 desktop:mt-3 desktop:text-2xl grid place-content-center underline">CA a-kasse</p>
 	</a>
+</div>
 	</div>
 	</section>
+	<style>
+
+
+		/* ----------------------------------------------
+ * Generated by Animista on 2024-4-27 12:32:38
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation slide-right
+ * ----------------------------------------
+ */
+@-webkit-keyframes slide-right {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(100px);
+            transform: translateX(100px);
+  }
+}
+.slide-right {
+	-webkit-animation: slide-right 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-right 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+	</style>
 </MainLayout>
